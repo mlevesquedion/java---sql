@@ -1,2 +1,5 @@
+sql.sql
+java.java
+*.pyc
 __pycache__
 .pytest_cache

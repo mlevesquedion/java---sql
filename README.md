@@ -4,8 +4,8 @@ Convert from SQL to a Java string, and back!
 
 ## Usage
 
-1. From SQL : put your SQL code in ```sql.sql``` and run ```sql_to_java.py```.
-2. From Java : put your Java strings in ```java.java``` and run ```java_to_sql.py```.
+1. From SQL : create a file named ```sql.sql```, put your SQL code in it and run ```sql_to_java.py```.
+2. From Java : create a file named ```java.java```, put your Java code in it and run ```java_to_sql.py```.
 
 ## Tests
 
