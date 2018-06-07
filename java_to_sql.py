@@ -3,7 +3,7 @@ from convert import convert
 
 
 def try_match(line):
-	return re.search(r'\+ " ([\w ,=:\[\]]+) "', line)
+	return re.search(r'\+ " (.+) "', line)
 
 
 def extract_matches(lines):
