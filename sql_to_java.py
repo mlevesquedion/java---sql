@@ -3,7 +3,7 @@ from convert import convert
 
 
 def format_line(line):
-	return '" {} "'.format(line.strip())
+	return '" {} "'.format(line.rstrip())
 
 
 def sql_to_java(lines):
