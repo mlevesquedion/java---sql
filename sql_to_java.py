@@ -7,7 +7,7 @@ def format_line(line):
 
 
 def sql_to_java(lines):
-	first_line = '""\n+ '
+	first_line = 'String query = ""\n+ '
 	java_lines = '\n+ '.join(format_line(line) for line in lines)
 	return first_line + java_lines + ';'
 

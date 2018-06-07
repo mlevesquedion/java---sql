@@ -28,4 +28,4 @@ def to_filename():
 def test_convert(from_filename, to_filename):
   convert(from_filename, to_filename, sql_to_java)
   with open(to_filename) as to_file:
-    assert to_file.read() == '""\n+ " SELECT [reference], [estimation], [name], [description], [notes], [from], ";'
+    assert to_file.read() == 'String query = ""\n+ " SELECT [reference], [estimation], [name], [description], [notes], [from], ";'

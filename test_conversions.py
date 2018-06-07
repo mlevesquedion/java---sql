@@ -10,7 +10,7 @@ WHERE x = :fetch'''
 
 
 java = '''\
-""
+String query = ""
 + " SELECT 1 "
 + " FROM campaigns "
 + " JOIN dogs "
