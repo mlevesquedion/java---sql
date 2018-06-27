@@ -1,4 +1,8 @@
-# SQL ∞ Java
+# DEPRECATED
+
+Check out this project's successor, [requery](https://github.com/mlevesquedion/requery).
+
+## SQL ∞ Java
 
 Convert from SQL to a Java string, and back!
 
